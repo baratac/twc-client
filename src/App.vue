@@ -188,6 +188,9 @@
           })
         }
       }
+    },
+    mounted() {
+      console.log("INFO Expecting server at: ", baseURL);
     }
   })
 
